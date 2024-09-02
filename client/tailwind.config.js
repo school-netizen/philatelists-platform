@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      focusColor:"sky400",
+      hoverColor:"slate300",
+      unUsed:"slate400",
+      color: "slate-200",
+      blueTint:"#slate700",
+      bgColor:"#slate800",
+
+    },
   },
   plugins: [],
 }
