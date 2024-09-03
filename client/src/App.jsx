@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Cancellations from "./pages/Cancellations";
 import Profile from "./pages/Profile";
 import Header from "./components/Header";
+import Card from "./components/Card";
 
 export default function App() {
   return <BrowserRouter>
@@ -16,5 +17,6 @@ export default function App() {
       <Route path="/log-in" element={<Login/>}/>
       <Route path="/profile" element={<Profile/>}/>
     </Routes>
+    <Card/>
   </BrowserRouter>
 }
